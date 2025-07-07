@@ -18,10 +18,10 @@ const BarMenu = () => {
     <div className="flex flex-row gap-5 items-center z-50">
       <HiOutlineBars3CenterLeft
         onClick={() => setIsOpen(!isOpen)}
-        className="w-8 h-8 cursor-pointer"
+        className="w-5 h-5 lg:w-8 lg:h-8 cursor-pointer"
       />
       <div className="border-l h-6" />
-      <div className="flex flex-row gap-5">
+      <div className="lg:flex flex-row gap-5 hidden">
         {menu.map((item) => (
           <Link href={item.link} key={item.name} className="hover:text-white">
             {item.name}
@@ -55,14 +55,14 @@ const BarMenu = () => {
               initial="hidden"
               animate="visible"
               exit="exit"
-              className="absolute h-screen w-2/6 top-0 left-0 bg-[#eae5df] text-[#903C02] flex flex-col z-50"
+              className="absolute h-screen lg:w-2/6 top-0 left-0 bg-[#eae5df] text-[#903C02] flex flex-col z-50"
             >
               <h1 className="text-4xl text-center p-4 carattere tracking-wide">
                 <Link onClick={() => setIsOpen(false)} href="/">
                   Damaises
                 </Link>
               </h1>
-              <div className="flex flex-col items-start pl-10 pt-20">
+              <div className="flex flex-col items-start pl-4 lg:pl-10 lg:pt-20">
                 {/* Menu */}
                 <h1>MENU</h1>
                 <div className="flex flex-col gap-5 items-start mt-8">
@@ -75,7 +75,7 @@ const BarMenu = () => {
                     >
                       <Link
                         href={item.link}
-                        className="hover:text-[#a57452] duration-500 text-6xl carattere tracking-widest"
+                        className="hover:text-[#a57452] duration-500 text-4xl lg:text-6xl carattere tracking-widest"
                       >
                         {item.name}
                       </Link>
@@ -83,9 +83,9 @@ const BarMenu = () => {
                   ))}
                 </div>
               </div>
-              <div className="w-full border-b border-black/50 mt-20 mb-10" />
+              <div className="w-full border-b border-black/50 mt-10 lg:mt-20 lg:mb-10" />
               {/* Content */}
-              <div className="grid grid-cols-2 items-start pl-10 pt-10">
+              <div className="grid grid-cols-2 items-start px-4 lg:pl-10 pt-10">
                 <div className="flex flex-col">
                   <h1 className="opacity-50 tracking-widest">STAY</h1>
                   <div className="flex flex-col gap-2 mt-4">
