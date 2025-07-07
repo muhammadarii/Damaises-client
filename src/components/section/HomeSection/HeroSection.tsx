@@ -14,9 +14,11 @@ const HeroSection = () => {
         className="w-full h-full object-cover"
       />
       <div className="absolute flex flex-col w-full top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[#eae5df]">
-        <h1 className="text-6xl font-light text-center carattere">D</h1>
-        <h1 className="text-xl font-light text-center">Hotel & Resort</h1>
-        <p className="text-[120px] font-extralight text-center carattere tracking-wide">
+        <h1 className="text-2xl lg:text-6xl font-light text-center carattere">
+          D
+        </h1>
+        <h1 className="lg:text-xl font-light text-center">Hotel & Resort</h1>
+        <p className="text-[60px] lg:text-[120px] font-extralight text-center carattere lg:tracking-wide leading-16 lg:leading-none mt-2">
           Find the spirit of Bali at Damaises
         </p>
         <Button className="self-center">Explore our village</Button>

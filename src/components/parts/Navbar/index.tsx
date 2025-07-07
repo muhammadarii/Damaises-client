@@ -33,7 +33,7 @@ const Navbar = () => {
           : "bg-transparent text-[#eae5df] border-b border-[#eae5df]/30"
       }`}
     >
-      <div className="relative flex flex-row w-full items-center justify-between p-8 pt-10">
+      <div className="relative flex flex-row w-full items-center justify-between p-4 lg:p-8 lg:pt-10">
         {/* Bar & Menu */}
         <BarMenu />
 
@@ -41,7 +41,7 @@ const Navbar = () => {
         <Brand />
 
         {/* Book Now */}
-        <Button>Book Now</Button>
+        <Button className="hidden lg:flex">Book Now</Button>
       </div>
     </nav>
   );

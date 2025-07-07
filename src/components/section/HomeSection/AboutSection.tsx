@@ -18,6 +18,15 @@ const AboutSection = () => {
           Explore our village
         </Button>
       </div>
+      <div className="absolute flex flex-col w-full bottom-0 text-center text-xs mb-4">
+        <h1 className="opacity-50 tracking-widest">WELCOME TO DAMAISES</h1>
+        <p className="mt-4 opacity-80">
+          A dozen villas, blessed by breezes from nearby spice farms. A prize
+          winning cuisine, served under
+          <br /> the stars. A spa with the spirit of Bali and a pool with a view
+          of distant volcanoes.
+        </p>
+      </div>
     </section>
   );
 };
