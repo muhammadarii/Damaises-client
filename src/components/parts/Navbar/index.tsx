@@ -27,13 +27,13 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed z-50 w-screen transition-all duration-700 ${
+      className={`fixed z-50 w-screen transition-all duration-700 text-sm ${
         scrolled
-          ? "bg-white/40 backdrop-blur-sm text-[#903C02]"
-          : "bg-transparent text-[#eae5df]"
+          ? "bg-white/40 backdrop-blur-sm text-black border-b border-[#eae5df]/30"
+          : "bg-transparent text-[#eae5df] border-b border-[#eae5df]/30"
       }`}
     >
-      <div className="relative flex flex-row w-full items-center justify-between p-6">
+      <div className="relative flex flex-row w-full items-center justify-between p-8 pt-10">
         {/* Bar & Menu */}
         <BarMenu />
 

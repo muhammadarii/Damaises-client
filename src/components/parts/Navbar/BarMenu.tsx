@@ -63,6 +63,7 @@ const BarMenu = () => {
                 </Link>
               </h1>
               <div className="flex flex-col items-start pl-10 pt-20">
+                {/* Menu */}
                 <h1>MENU</h1>
                 <div className="flex flex-col gap-5 items-start mt-8">
                   {menu.map((item, index) => (
@@ -81,6 +82,31 @@ const BarMenu = () => {
                     </motion.div>
                   ))}
                 </div>
+              </div>
+              <div className="w-full border-b border-black/50 mt-20 mb-10" />
+              {/* Content */}
+              <div className="grid grid-cols-2 items-start pl-10 pt-10">
+                <div className="flex flex-col">
+                  <h1 className="opacity-50 tracking-widest">STAY</h1>
+                  <div className="flex flex-col gap-2 mt-4">
+                    <span>Garden Villa</span>
+                    <span>Pool Studio</span>
+                    <span>Pool Villa</span>
+                    <span>Master Pool Villa</span>
+                  </div>
+                </div>
+                <div className="flex flex-col">
+                  <h1 className="opacity-50 tracking-widest">DISCOVER</h1>
+                  <div className="flex flex-col gap-2 mt-4">
+                    <span>Secret Waterfalls</span>
+                    <span>Dolphins of Lovina</span>
+                    <span>Ceremonies</span>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full border-b border-black/50 mt-20 mb-10" />
+              <div className="flex flex-col items-center justify-center">
+                <h1 className="tracking-widest">CONTACT</h1>
               </div>
             </motion.div>
           </>
