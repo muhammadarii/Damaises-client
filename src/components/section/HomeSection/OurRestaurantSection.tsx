@@ -6,15 +6,15 @@ import Button from "@/components/ui/Button";
 const OurRestaurantSection = () => {
   return (
     <section className="relative h-screen w-screen">
-      <div className="flex flex-row items-center justify-center h-full w-full gap-[100px]">
+      <div className="flex flex-row items-center justify-center h-full w-full gap-32">
         <Image
           src={Sate}
           alt="our-restaurant"
-          className="w-[400px] h-[500px] object-cover"
+          className="w-[500px] h-[600px] object-cover"
         />
         <div>
           <h3 className="text-[#140D0A]/50">Our Restaurant</h3>
-          <h1 className="carattere text-6xl text-[#903C02] mt-10">
+          <h1 className="carattere text-8xl text-[#903C02] mt-10">
             Prize Winning
             <br />
             Balinese Bistro
