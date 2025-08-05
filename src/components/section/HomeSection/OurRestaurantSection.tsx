@@ -28,7 +28,7 @@ const OurRestaurantSection = () => {
             two cook books.
           </p>
           <Button className="self-center mt-5 lg:mt-10 bg-[#903C02] hover:bg-[#b04f0f]">
-            Explore our village
+            Discover our restaurant
           </Button>
         </div>
       </div>
