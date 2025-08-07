@@ -5,7 +5,7 @@ import Spa from "@/assets/images/spa.jpg";
 
 const OurSpaSection = () => {
   return (
-    <section className="relative h-full lg:h-screen w-screen mt-20 lg:mt-0 border-b border-[#903C02]/50">
+    <section className="relative h-full lg:h-screen w-screen mt-20 lg:mt-0 border-b border-[#903C02]/10">
       <div className="flex flex-col lg:flex-row items-center justify-center h-full w-full gap-4 lg:gap-32">
         <Image
           src={Spa}
